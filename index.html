@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Viewer</title>
+    <link rel="stylesheet" href="./dist/css/main.css"> 
+</head>
+<body>
+    <div class="titlecontainer">
+        <h1 class="mainheading">My Blogs</h1>
+        <button id="addnewbtn" type="button">Add New Blog</button>
+    </div>
+    
+    <div id="blogList"></div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h3>Add New Information</h3>
+            <input type="text" placeholder="Blog Name" id="field1">
+            <input type="text" placeholder="Blog Content" id="field2">
+            <input type="text" placeholder="Blog Author" id="field3">
+            <input type="datetime-local" placeholder="Blog Date" id="field4">
+            <button id="btnfield1">Submit</button>
+            <button id="btnfield2">Close</button>
+        </div>
+    </div>
+
+    <div id="popupupdate" class="popupupdate">
+        <div class="popup-content-update">
+            <h3>Update Information</h3>
+                <input name="content" type="text" placeholder="Blog Content" id="updatefield2" required>
+            <input name="author" type="text" placeholder="Blog Author" id="updatefield3" required>
+            <button id="updatebtnfield1" >Submit</button>
+            <button id="updatebtnfield2">Close</button>
+            
+        </div>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+</html>

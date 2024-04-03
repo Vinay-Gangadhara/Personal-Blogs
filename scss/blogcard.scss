@@ -1,0 +1,71 @@
+@import 'variables';
+.mainheading {
+	font-family: $font-family_1;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.title {
+	height: 100%;
+	width: 90%;
+	font-family: $font-family_1;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: $background-color_13;
+	box-shadow: $boxshadow;
+	margin: 10px;
+	padding: 10px;
+}
+.content {
+	width: 90%;
+	font-family: $font-family_1;
+	font-size: 20px;
+	background-color: $background-color_23;
+	box-shadow: $boxshadow;
+	margin: 10px;
+	padding: 10px;
+	transition: max-height 3s ease;
+}
+
+.exp_display
+{
+	max-height: 750px;
+	
+}
+
+.content_desc {
+	overflow: hidden;
+	position: relative;
+	text-align: justify;
+	transition: max-height 3s ease;
+}
+.expand {
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: $font-family_1;
+	background-color: $background-color_33;
+	cursor: pointer;
+	border-radius: 10px;
+	text-align: center;
+}
+.author {
+	width: 90%;
+	overflow: auto;
+	margin: 10px;
+	padding: 10px;
+	font-family: $font-family_1;
+	font-size: 20px;
+	background-color: $background-color_23;
+	box-shadow: $boxshadow;
+}
+.date {
+	width: 90%;
+	margin: 10px;
+	padding: 10px;
+	font-family: $font-family_1;
+	font-size: 20px;
+	background-color: $background-color_23;
+	box-shadow: $boxshadow;
+}
